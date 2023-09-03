@@ -13,7 +13,7 @@ import {
 } from "@mui/material";
 
 export default function Dashboard() {
-  const [fieldsVisibility, setFieldsVisibility] = useState({
+  const [fieldsVisibility, setFieldsVisibility] = useState<any>({
     field1: true,
     field2: true,
     field3: true,
@@ -36,7 +36,7 @@ export default function Dashboard() {
     field20: true,
     field21: true,
   });
-  const [finalData, SetFinalData] = useState({
+  const [finalData, SetFinalData] = useState<any>({
     field1: "",
     field2: "",
     field3: "",
